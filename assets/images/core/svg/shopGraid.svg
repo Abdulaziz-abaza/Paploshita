@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126" height="126" viewBox="0 0 126 126">
+  <defs>
+    <filter id="Oval_2_Copy" x="0" y="0" width="126" height="126" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.5" result="blur"/>
+      <feFlood flood-opacity="0.043"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="shop" transform="translate(10.5 15.5)">
+    <g transform="matrix(1, 0, 0, 1, -10.5, -15.5)" filter="url(#Oval_2_Copy)">
+      <path id="Oval_2_Copy-2" data-name="Oval 2 Copy" d="M93,46.5A46.5,46.5,0,1,0,46.5,93,46.5,46.5,0,0,0,93,46.5Z" transform="translate(10.5 15.5)" fill="#fff"/>
+    </g>
+    <g id="Group_1453" data-name="Group 1453" transform="translate(-261.844 -312)">
+      <g id="shop-2" data-name="shop" transform="translate(294.844 303.807)">
+        <g id="Group_1410" data-name="Group 1410" transform="translate(0 31.05)">
+          <path id="Path_1508" data-name="Path 1508" d="M253.356,263.75H249.91a1.712,1.712,0,0,0-1.71,1.71V268.1a1.712,1.712,0,0,0,1.71,1.71h3.446a1.712,1.712,0,0,0,1.71-1.71V265.46A1.712,1.712,0,0,0,253.356,263.75Zm.466,4.353a.468.468,0,0,1-.466.466H249.91a.468.468,0,0,1-.466-.466V265.46a.468.468,0,0,1,.466-.466h3.446a.468.468,0,0,1,.466.466Z" transform="translate(-235.338 -251.691)" fill="#3f4d56"/>
+          <path id="Path_1509" data-name="Path 1509" d="M25.361,38.3A.577.577,0,0,0,25.278,38l-3.773-6.633a.625.625,0,0,0-.539-.316H4.389a.615.615,0,0,0-.539.316L.083,38A.629.629,0,0,0,0,38.3a3.638,3.638,0,0,0,2.176,3.327V52.571a.624.624,0,0,0,.622.622H22.557a.624.624,0,0,0,.622-.622V41.709a.274.274,0,0,0-.005-.067A3.648,3.648,0,0,0,25.361,38.3ZM4.752,32.3H20.6l2.949,5.187H1.809Zm13.3,6.426a2.39,2.39,0,0,1-4.705,0Zm-6.027,0a2.393,2.393,0,0,1-4.71,0Zm-10.737,0H6a2.393,2.393,0,0,1-4.71,0Zm9.162,13.225H6.871V45.238a.886.886,0,0,1,.886-.886H9.566a.886.886,0,0,1,.886.886v6.711Zm11.489,0H11.691V45.238a2.133,2.133,0,0,0-2.13-2.13H7.752a2.133,2.133,0,0,0-2.13,2.13v6.716H3.42V41.937c.073.005.145.005.218.005a3.633,3.633,0,0,0,3.016-1.606,3.634,3.634,0,0,0,6.032,0,3.625,3.625,0,0,0,6.022,0,3.633,3.633,0,0,0,3.016,1.606c.073,0,.14-.005.212-.005V51.949ZM21.723,40.7A2.389,2.389,0,0,1,19.37,38.73h4.71A2.4,2.4,0,0,1,21.723,40.7Z" transform="translate(0 -31.05)" fill="#3f4d56"/>
+        </g>
+      </g>
+      <text id="افتتح_متجرك" data-name="افتتح متجرك" transform="translate(307.844 378)" fill="#3f4d56" font-size="11" font-family="Tajawal-Regular, Tajawal"><tspan x="-28" y="0">افتتح متجرك</tspan></text>
+    </g>
+  </g>
+</svg>

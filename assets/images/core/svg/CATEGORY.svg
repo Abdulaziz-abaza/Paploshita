@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="CATEGORY" transform="translate(10 11)">
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="22.5" cy="22.5" r="22.5" transform="translate(-10 -11)" fill="#ff7211"/>
+    <path id="Grid" d="M14,22a2,2,0,0,1-2-2V14a2,2,0,0,1,2-2h6a2,2,0,0,1,2,2v6a2,2,0,0,1-2,2ZM2,22a2,2,0,0,1-2-2V14a2,2,0,0,1,2-2H8a2,2,0,0,1,2,2v6a2,2,0,0,1-2,2ZM14,10a2,2,0,0,1-2-2V2a2,2,0,0,1,2-2h6a2,2,0,0,1,2,2V8a2,2,0,0,1-2,2ZM2,10A2,2,0,0,1,0,8V2A2,2,0,0,1,2,0H8a2,2,0,0,1,2,2V8a2,2,0,0,1-2,2Z" transform="translate(1.5 0.5)" fill="none" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>

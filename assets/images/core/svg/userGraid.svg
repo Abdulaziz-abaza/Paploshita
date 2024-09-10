@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126" height="126" viewBox="0 0 126 126">
+  <defs>
+    <filter id="Oval_2" x="0" y="0" width="126" height="126" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.5" result="blur"/>
+      <feFlood flood-opacity="0.043"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="user" transform="translate(10.5 15.5)">
+    <g transform="matrix(1, 0, 0, 1, -10.5, -15.5)" filter="url(#Oval_2)">
+      <path id="Oval_2-2" data-name="Oval 2" d="M93,46.5A46.5,46.5,0,1,0,46.5,93,46.5,46.5,0,0,0,93,46.5Z" transform="translate(10.5 15.5)" fill="#fff"/>
+    </g>
+    <g id="login" transform="translate(9.028 17)">
+      <text id="مستخدم" transform="translate(36.972 50)" fill="#3f4d56" font-size="10" font-family="Tajawal-Regular, Tajawal"><tspan x="-18" y="0">مستخدم</tspan></text>
+      <g id="add-user" transform="translate(25.971 10)">
+        <g id="Group_69504" data-name="Group 69504" transform="translate(0)">
+          <g id="Group_69503" data-name="Group 69503" transform="translate(0)">
+            <path id="Path_74895" data-name="Path 74895" d="M17.23,12.043a12.2,12.2,0,0,0-1.411-.566,6.375,6.375,0,1,0-7.633,0A12.194,12.194,0,0,0,.061,20.565,2.848,2.848,0,0,0,2.845,24H14.391a.937.937,0,0,0,0-1.875H2.845a.953.953,0,0,1-.75-.357.979.979,0,0,1-.2-.821,10.358,10.358,0,0,1,9.855-8.2q.124,0,.249,0t.251,0a10.212,10.212,0,0,1,4.174.991.938.938,0,0,0,.8-1.693Zm-5-1.173-.229,0-.227,0a4.5,4.5,0,1,1,.456,0Z" transform="translate(0)" fill="rgba(63,77,86,0.65)"/>
+          </g>
+        </g>
+        <g id="Group_69506" data-name="Group 69506" transform="translate(15.094 15.094)">
+          <g id="Group_69505" data-name="Group 69505">
+            <path id="Path_74896" data-name="Path 74896" d="M329.969,325.516h-2.578v-2.578a.937.937,0,1,0-1.875,0v2.578h-2.578a.937.937,0,1,0,0,1.875h2.578v2.578a.937.937,0,1,0,1.875,0v-2.578h2.578a.937.937,0,1,0,0-1.875Z" transform="translate(-322 -322)" fill="rgba(63,77,86,0.65)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

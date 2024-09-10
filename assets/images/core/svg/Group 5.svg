@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13.091" height="15.778" viewBox="0 0 13.091 15.778">
+  <g id="Group_5" data-name="Group 5" transform="translate(-17.5 0.5)">
+    <g id="map-pin" transform="translate(18)">
+      <path id="Shape" d="M12.091,6.045c0,4.7-6.045,8.732-6.045,8.732S0,10.747,0,6.045a6.045,6.045,0,0,1,12.091,0Z" fill="none" stroke="#8d8d8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Oval" d="M2.182,0A2.182,2.182,0,1,1,0,2.182,2.182,2.182,0,0,1,2.182,0Z" transform="translate(4 4)" fill="none" stroke="#8d8d8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
