@@ -1,5 +1,6 @@
 import 'package:clean_arc/core/utils_package/utils_package.dart';
 import 'package:clean_arc/features/menu/componant.dart';
+import 'package:clean_arc/features/menu/myOrderScreen.dart';
 import 'package:flutter/material.dart';
 
 class ProfileScreen extends StatelessWidget {
@@ -53,7 +54,13 @@ class ProfileScreen extends StatelessWidget {
                 Divider(),
                 CustomListTile(
                     leadingText: '',
-                    onLeadingTap: () {},
+                    onLeadingTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => myOrder(),
+                        ),
+                      );
+                    },
                     onTitleTap: () {},
                     titleText: '55',
                     trailingText: 'طلباتي'),
@@ -81,7 +88,6 @@ class ProfileScreen extends StatelessWidget {
                     onTitleTap: () {},
                     titleText: '2',
                     trailingText: 'استفساراتي'),
-                CustomButton(onPressed: () {}, child: Text('jnkjnb'))
               ],
             ),
           ),
@@ -281,146 +287,6 @@ class Inquiry {
     required this.isReplied,
   });
 }
-
-// class ChatScreen extends StatefulWidget {
-//   final Inquiry inquiry;
-
-//   ChatScreen({required this.inquiry});
-
-//   @override
-//   _ChatScreenState createState() => _ChatScreenState();
-// }
-
-// class _ChatScreenState extends State<ChatScreen> {
-//   final TextEditingController _controller = TextEditingController();
-//   List<String> messages = []; // List to store messages
-
-//   void _sendMessage() {
-//     String message = _controller.text;
-//     if (message.isNotEmpty) {
-//       setState(() {
-//         messages.add(message); // Add message to the list
-//       });
-//       _controller.clear(); // Clear the text field
-//     }
-//   }
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       resizeToAvoidBottomInset: false,
-//       appBar: AppBar(
-//         title: Text('Chat'),
-//         leading: IconButton(
-//           icon: Icon(Icons.arrow_back),
-//           onPressed: () {
-//             Navigator.pop(context);
-//           },
-//         ),
-//       ),
-//       body: Column(
-//         children: [
-//           // Display the first inquiry message
-//           Card(
-//             margin: EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
-//             shape: RoundedRectangleBorder(
-//                 borderRadius: BorderRadius.circular(10.0)),
-//             child: Padding(
-//               padding: const EdgeInsets.all(16.0),
-//               child: Column(
-//                 crossAxisAlignment: CrossAxisAlignment.start,
-//                 children: [
-//                   // Date and User Info
-//                   Row(
-//                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//                     children: [
-//                       Text(widget.inquiry.date,
-//                           style: TextStyle(color: Colors.grey)),
-//                       Row(
-//                         children: [
-//                           Text(widget.inquiry.username,
-//                               style: TextStyle(fontWeight: FontWeight.bold)),
-//                           SizedBox(width: 5),
-//                           CircleAvatar(
-//                             child: ClipRRect(
-//                               borderRadius: BorderRadius.circular(20.0),
-//                               child: widget.inquiry.userImage,
-//                             ),
-//                             radius: 12.0,
-//                             backgroundColor: Colors.transparent,
-//                           ),
-//                         ],
-//                       ),
-//                     ],
-//                   ),
-//                   SizedBox(height: 8.0),
-//                   Align(
-//                     alignment: Alignment.centerRight,
-//                     child: Text(widget.inquiry.question,
-//                         style: TextStyle(
-//                             fontSize: 20, fontWeight: FontWeight.bold)),
-//                   ),
-//                   SizedBox(height: 8.0),
-//                   Align(
-//                     alignment: Alignment.centerRight,
-//                     child: Text(
-//                       "أرغب بشراء المنتج وعندي سؤال عن ضمان المنتج وبلد الصنع",
-//                     ),
-//                   ),
-//                 ],
-//               ),
-//             ),
-//           ),
-//           // Expanded to display sent messages
-//           Expanded(
-//             child: ListView.builder(
-//               itemCount: messages.length,
-//               itemBuilder: (context, index) {
-//                 return Padding(
-//                   padding: const EdgeInsets.all(8.0),
-//                   child: Align(
-//                     alignment: Alignment.centerRight,
-//                     child: Container(
-//                       padding: EdgeInsets.all(10.0),
-//                       decoration: BoxDecoration(
-//                         color: Colors.blueAccent,
-//                         borderRadius: BorderRadius.circular(10.0),
-//                       ),
-//                       child: Text(
-//                         messages[index],
-//                         style: TextStyle(color: Colors.white),
-//                       ),
-//                     ),
-//                   ),
-//                 );
-//               },
-//             ),
-//           ),
-//           // Text field and send button
-//           Padding(
-//             padding: EdgeInsets.all(8.0),
-//             child: Row(
-//               children: [
-//                 Expanded(
-//                   child: TextField(
-//                     controller: _controller,
-//                     decoration: InputDecoration(
-//                       hintText: 'اكتب رسالة...',
-//                     ),
-//                   ),
-//                 ),
-//                 IconButton(
-//                   icon: Icon(Icons.send),
-//                   onPressed: _sendMessage, // Call the _sendMessage function
-//                 ),
-//               ],
-//             ),
-//           ),
-//         ],
-//       ),
-//     );
-//   }
-// }
 
 class ChatScreen extends StatefulWidget {
   final Inquiry inquiry;

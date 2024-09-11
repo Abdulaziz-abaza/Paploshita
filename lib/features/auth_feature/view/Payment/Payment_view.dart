@@ -144,6 +144,28 @@ class _PaymentViewState extends State<PaymentView> {
         key: formKey,
         child: Column(
           children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                TextButton(
+                  onPressed: () {},
+                  child: const Text(
+                    'بيانات البطاقة',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: const Text(
+                    'مسح الكل',
+                    style: TextStyle(color: Colors.orange, fontSize: 13),
+                  ),
+                ),
+              ],
+            ),
             CustomTextField(
               // : ' البطاقة',
               hintText: 'اسم حامل البطاقة',
@@ -201,7 +223,7 @@ class _PaymentViewState extends State<PaymentView> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => MyReceipt(),
+                        builder: (context) => finshScreen(),
                       ),
                     );
                   },
@@ -213,6 +235,25 @@ class _PaymentViewState extends State<PaymentView> {
                     ),
                   ))
             ]),
+            const SizedBox(height: 16),
+            CustomButton(
+                width: double.infinity,
+                height: 50,
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => finshScreen(),
+                    ),
+                  );
+                },
+                child: Padding(
+                  padding: const EdgeInsets.all(5.0),
+                  child: const Text(
+                    'تأكيد الطلب',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ))
           ],
         ),
       ),

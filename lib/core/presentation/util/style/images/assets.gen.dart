@@ -283,6 +283,10 @@ class $AssetsImagesCoreSvgGen {
   SvgGenImage get store =>
       const SvgGenImage('assets/images/core/svg/store.svg');
 
+  /// File path: assets/images/core/svg/success.svg
+  SvgGenImage get success =>
+      const SvgGenImage('assets/images/core/svg/success.svg');
+
   /// File path: assets/images/core/svg/technical-support.svg
   SvgGenImage get technicalSupport =>
       const SvgGenImage('assets/images/core/svg/technical-support.svg');
@@ -373,6 +377,7 @@ class $AssetsImagesCoreSvgGen {
         shoppingCart,
         sortButtonWithThreeLines,
         store,
+        success,
         technicalSupport,
         term,
         transfer,
